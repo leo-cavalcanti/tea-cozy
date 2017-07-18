@@ -1,31 +1,38 @@
 body {
-  margin: 0;
-  padding: 0;
+  background-color: black;
+  color: seashell;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  background-color: black;
+  margin: 0;
+  padding: 0;
   opacity: 0.9;
   text-align: center;
+}
+
+.main {
+  display: block;
+  padding-top: 69px;
+  z-index: 0;
 }
 
 /**********Header**********/
 
 header {
-  display: flex;
-  position: fixed;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
+  display: flex;
+  flex-wrap: wrap;
+  height: 69px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
   z-index: 1;
 }
 
 .logo {
-  flex-grow: 1;
   display: inline-flex;
+  flex-grow: 1;
 }
 
 .logo img {
@@ -43,6 +50,27 @@ span a {
 }
 
 /**********Banner**********/
+
+.mission {
+  align-items: center;
+  background: url("../images/img-mission-background.jpg") center top no-repeat;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-content {
+  background-color: black;
+  display: block;
+  width: 1200px;
+}
+
+.text-content h2,h4 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
 
 /**********Teas**********/
 
