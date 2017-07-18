@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/**********Header**********/
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.logo {
+  flex-grow: 1;
+  display: inline-flex;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+span a {
+  color: seashell;
+  margin: 15px;
+}
+
+/**********Banner**********/
+
+/**********Teas**********/
+
+/**********Location**********/
+
+/**********Footer***********/
