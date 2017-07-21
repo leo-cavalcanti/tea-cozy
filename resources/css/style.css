@@ -15,7 +15,8 @@ body {
   z-index: 0;
 }
 
-/**********Header**********/
+
+/*********************header*********************/
 
 header {
   align-items: center;
@@ -49,9 +50,9 @@ span a {
   margin: 15px;
 }
 
-/**********Banner**********/
+/*********************banner*********************/
 
-.mission {
+.banner-mission {
   align-items: center;
   background: url("../images/img-mission-background.jpg") center top no-repeat;
   display: flex;
@@ -62,18 +63,21 @@ span a {
 
 .text-content {
   background-color: black;
-  display: block;
   width: 1200px;
 }
 
 .text-content h2,h4 {
-  display: block;
   margin: 0;
   padding: 10px;
 }
 
-/**********Teas**********/
 
-/**********Location**********/
+/****************featured-products****************/
 
-/**********Footer***********/
+
+
+/********************locations********************/
+
+
+
+/**********************footer*********************/
