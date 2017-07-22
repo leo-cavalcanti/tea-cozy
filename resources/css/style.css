@@ -16,7 +16,6 @@ body {
   z-index: 0;
 }
 
-
 /*********************header*********************/
 
 header {
@@ -78,7 +77,7 @@ span a {
   justify-content: center;
   width: 1000px;
   margin: 0 auto;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .flex-container .products {
@@ -97,6 +96,34 @@ span a {
 
 /*******************locations********************/
 
+.locations {
+  align-items: center;
+  background: url("../images/img-locations-background.jpg") center top no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding-top: 40px;
+}
+
+.locations-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.location {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 0 20px;
+  width: 300px;
+}
 
 
 /**********************footer*********************/
