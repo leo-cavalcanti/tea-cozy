@@ -12,6 +12,7 @@ body {
 .main {
   display: block;
   padding-top: 69px;
+  text-align: center;
   z-index: 0;
 }
 
@@ -71,12 +72,30 @@ span a {
   padding: 10px;
 }
 
+/****************featured-products***************/
 
-/****************featured-products****************/
+.featured-products {
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
 
+.flex-container .products {
+  display: flex;
+}
 
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
 
-/********************locations********************/
+.product img {
+  margin: 10px;
+}
+
+/*******************locations********************/
 
 
 
